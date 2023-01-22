@@ -17,7 +17,14 @@
         <a href="jsHtml.html">JS html</a>
     </div>
 
-    <h1>JavaScript Functions</h1>
+    <h1>JavaScript Higher Order Functions</h1>
+    <p>Array methods: <br> filter(SCRIPTS, script => script.living) this builds a new array of the elements that passed the test which is script => script.living. <br>
+      map(rtlScripts, s => s.name) === rtlScripts.map(s => s.name) this returns a new array with the same length which is transformed by the function passed in after the array. <br>
+      reduce([1, 2, 3, 4], (a, b) => a + b, 0) this takes (an array, a function, a start index) and manipulates the array acording to the function this example adds together the array <br>
+      <br><br> Composability abstracting is better than writing new functions becuase it can handle larger arrays <br>
+      highr order functions truely shine whe use in combontion with eachother. for example console.log(Math.round(average(
+        SCRIPTS.filter(s => !s.living).map(s => s.year)))); this function uses the built in Math.round(), average() whcih was made adds all nums together then divides by index+1 <br>
+     </p>
 
 </body>
 </html>
