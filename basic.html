@@ -17,11 +17,27 @@
         <a href="jsHtml.html">JS html</a>
     </div>
         <h1>Basic javascript</h1>
-        <h2>- Bindings, Arrays, Loops, Functions and Definitions</h2>
+        <h2><hr>- Bindings, Arrays, Loops, Functions and Definitions</h2>
         <p> Basic js is composed of bindings. Bindings are keywords which create values like the keyowrds let, const, var all are made to create objects. 
           Functions manipulate objects in order to change values. Functions are made use either( let functionName = (Var) =>{};) or the calssic way( function 
           functionName(Var){}). Methods are built in functions that are made for commonly used functions. Arrays are created using let arr = []; or something
            like that you can use let or const var is kinda trash but they are used for storing multiple elements seperatly. also theres for(let i = 0; i &lt; 
            size; i++){}, while(i &lt; beancount){} and (array1.forEach(element => console.log(element)). (var being passed in => function)  </p>
+        <h2><hr>Secret Life of Objects</h2>
+           <p>Methods: properties that hold a function (let rabbit = {}/ rabbit.speak = function(var){}). Methods are called like (obj.method()).
+              /.this/ method -> automatically points at the object that it was called on. </p> 
+            <h3>example 1</h3>
+            <p><br><img src="images/Screen Shot 2023-01-23 at 11.36.52 AM.png" alt="ex2.png"  width="970" heigth="314"> <br> <br>
+              If you want to pass it explicitly, you can use a function’s call method, which takes the this value as its first argument and treats further arguments as normal parameters. <br> <br>
+            <img src="images/Screen Shot 2023-01-23 at 11.40.44 AM.png" alt="ex3.jpg" width="574" height="70"> <br> <br> Using this in order to refrence the object being passed into the function this . length refrences the length section of the name value pairs. 
+           <br> <br> <img src="images/Screen Shot 2023-01-23 at 11.48.19 AM.png" alt="ex4.jpg" width="701" height="138"> </p>
+
+           <h2><hr>Prototype</h2>
+           <p>The prototype is a value set to all objects to fallback value. Object.getPrototypeOf(obj) returns the prototype of an object. <br> <br>
+           <img src="images/Screen Shot 2023-01-23 at 12.05.22 PM.png" alt="ex5.png" width="701" height="138" > <br> <br> If its a method or a function you might have the default value of Function.prototype or Array.prototype... the general term is Object.prototype. Object.create to create a specific prototype. <br> <br>
+           <img src="images/Screen Shot 2023-01-23 at 12.18.34 PM.png" alt="ex6.png" width="787" height="238"> <br> A use for this would be making mad libs. </p>
+
+           <h2></h2>
+
 </body>
 </html>
