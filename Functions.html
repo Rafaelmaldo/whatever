@@ -18,13 +18,37 @@
     </div>
 
     <h1>JavaScript Higher Order Functions</h1>
-    <p>Array methods: <br> filter(SCRIPTS, script => script.living) this builds a new array of the elements that passed the test which is script => script.living. <br>
-      map(rtlScripts, s => s.name) === rtlScripts.map(s => s.name) this returns a new array with the same length which is transformed by the function passed in after the array. <br>
-      reduce([1, 2, 3, 4], (a, b) => a + b, 0) this takes (an array, a function, a start index) and manipulates the array acording to the function this example adds together the array <br>
-      <br><br> Composability abstracting is better than writing new functions becuase it can handle larger arrays <br>
-      highr order functions truely shine whe use in combontion with eachother. for example console.log(Math.round(average(
-        SCRIPTS.filter(s => !s.living).map(s => s.year)))); this function uses the built in Math.round(), average() whcih was made adds all nums together then divides by index+1 <br>
-     </p>
+
+    <h2><hr> ARRAY METHODS  </h2> 
+    <p>filter(SCRIPTS, script => script.living) this builds a new array of the elements that passed the test which is script => script.living.
+      map(rtlScripts, s => s.name) === rtlScripts.map(s => s.name) this returns a new array with the same length which is transformed by the function passed in after the array. 
+      reduce([1, 2, 3, 4], (a, b) => a + b, 0) this takes (an array, a function, a start index) and manipulates the array acording to the function this example adds together the array 
+    </p> 
+    <h2><hr> COMPOSABILITY  </h2>
+    <p> Composability abstracting is better than writing new functions becuase it can handle larger arrays higher order functions truely shine when use in combontion with eachother. for example console.log(Math.round(average(
+        SCRIPTS.filter(s => !s.living).map(s => s.year)))); this function uses the built in Math.round(), average() whcih was made adds all nums together then divides by index+1.
+        Strings and charecter codes arr-> script.ranges.some(([from, to]) => { return code >= from && code &lt; to; }) method is another higher order function which tests wether that function returns true for any elements in the array
+        horseShoe.codePointAt(0); is a function which returns the code for the charecter at a specific index in unicode. Normal letters are three digits and emojis appear to be double.
+    </p>  
+    <h2><hr> RECOGNIZING TEXT </h2> 
+    
+    <p>
+      We have a characterScript function and a way to correctly loop over characters. 
+    </p>
+    <h3>example  </h3>
+    <p><br><img src="images/Screen Shot 2023-01-22 at 3.08.33 PM.png" alt="ex1.png" heigth="216.8" width="441.6" > <br>
+    <br> - Name value pair array being sorted returns 2 arrays one with the number of true statment and one with all the false {name: false, count: 2}, {name: true, count: 3}.
+    <br> - The function test how many are larger than 2 there for 3 are larger true  and 2 are less than 2 false. 
+    <br> - Arrays provide a number of useful higher-order methods. You can use forEach to loop over the elements in an array. The filter method returns a new array containing only the elements that pass the predicate function.
+    <br> Transforming an array by putting each element through a function is done with map. You can use reduce to combine all the elements in an array into a single value. The some method tests whether any element matches a 
+    <br> given predicate function. And findIndex finds the position of the first element that matches a predicate.
+    <br> console.log(arrays.reduce( (a, b) => a.concat(b))); -> how to concatinate a group of unknown arrays 
+    <br>
+  </p>
+ 
+        
+
+    
 
 </body>
 </html>

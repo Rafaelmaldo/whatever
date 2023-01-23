@@ -7,29 +7,59 @@ html, body {
     margin: 0 auto;
     background-color: lightslategrey;
   }
-  p, li {
+  p, li{
     font-family: 'Open Sans Condensed', sans-serif;
     color: #2a2a2a;
     background-color: lightblue;
-    height: 500px;
+    height: auto;
     font-size: 20px;
     text-align: left;
-    margin: -22px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 50px;
     text-indent: 30px;
   }
   h1{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    font-size: 40px;
     background-color: lightblue;
     font-family: 'Open Sans Condensed', monospace;
   }
+  hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:black;
+  }
   h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+    background-color: lightblue;
+    height: auto;
+    font-size: 25px;
     text-align: left;
-    padding: 10px;
-    background-color: rgb(188, 218, 228);
-    font-family: Arial, Helvetica;
+    margin: -30px 0px 0px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: -22px;
+    padding-bottom: 10px;
+  }
+  h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+    background-color: lightblue;
+    height: auto;
+    font-size: 22px;
+    text-align: left;
+    margin: -30px 0px 0px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: -22px;
+    padding-bottom: 0px;
+    font-weight: lighter;
   }
   main {
     display: flex;
